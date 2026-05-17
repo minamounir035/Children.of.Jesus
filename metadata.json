@@ -1,0 +1,11 @@
+{
+  "name": "خدمة المخدومين - إدارة كنسية",
+  "description": "تطبيق شامل لإدارة بيانات المخدومين، الحضور والغياب، التقارير، والتواصل مع أولياء الأمور.",
+  "requestFramePermissions": [
+    "geolocation",
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

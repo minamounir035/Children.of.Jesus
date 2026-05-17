@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Noto+Serif+Arabic:wght@400;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Noto Serif Arabic", serif;
+  
+  --color-orthodox-red: #8B0000;
+  --color-orthodox-gold: #D4AF37;
+  --color-orthodox-wood: #4B2D1F;
+  --color-orthodox-parchment: #FDF5E6;
+}
+
+@layer base {
+  body {
+    @apply bg-orthodox-parchment text-orthodox-wood font-sans;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
+  }
+}
+
+.orthodox-gradient {
+  background: linear-gradient(135deg, #8B0000 0%, #4B2D1F 100%);
+}
+
+.orthodox-border {
+  border: 2px solid #D4AF37;
+}
+
+.parchment-bg {
+  background-color: #FDF5E6;
+  background-image: url("https://www.transparenttextures.com/patterns/parchment.png");
+}
+
